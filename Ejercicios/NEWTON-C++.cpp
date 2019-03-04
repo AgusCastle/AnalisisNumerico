@@ -8,7 +8,7 @@ float Funcion(float x){
 }
 
 float Derivada(float x){
-	return exp(x) + (pow(2,-x) * log1p(2)) - (2 * cos(x));
+	return exp(x) + (pow(2, -x) * log1p(2)) - (2 * sin(x));
 }
 
 int main(int argc, char const *argv[])
